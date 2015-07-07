@@ -27,6 +27,8 @@ object FunctionOps {
     }
   }
 
+
+  /* 强内聚若耦合 */
   def processData(fileName: String, width: Int): Unit ={
     def processLine(line: String): Unit ={
       if(line.length > width){

@@ -38,7 +38,7 @@ package spark{
 
       def makeItTrue(p: PackageOps_Advanced):Boolean = {
         val result = p.canMakeItTrue
-        result
+        result;
       }
     }
   }
